@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/glaxy"
+    android:orientation="vertical"
+    android:gravity="center|bottom"
+
+    tools:context=".SplashScreen">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Welcome Sabbir"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FBF3F3"
+        android:textSize="25sp"
+        android:gravity="center_horizontal"
+
+        />
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressbarId"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_margin="20dp"
+        android:layout_marginBottom="20dp"
+        android:progressTint="#100DEE"
+
+
+        />
+
+
+
+
+
+
+</LinearLayout>
